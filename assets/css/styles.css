@@ -80,6 +80,7 @@ html
     display: inline-block;
     margin-top: 15px;
     border: none;
+    -webkit-appearance: none;
 }
 .btn:hover
 {
@@ -194,7 +195,7 @@ ul
 #slider{
    margin-top: 46px;
    padding-top: 50%;
-   background: url('/assets/img/slider1.jpg') top center / cover no-repeat;
+   background: url('../img/slider1.jpg') top center / cover no-repeat;
    color: #fff;
    position: relative;
 
@@ -221,6 +222,7 @@ ul
 #slider .text-description
 {
     font-size: 15px;
+    text-shadow: 0 0 1px #000;
 }
 
 
